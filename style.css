@@ -1,0 +1,294 @@
+	*{
+		margin:0px;
+		padding:0px;
+	}
+
+	header {
+		position: fixed;
+		z-index: 99;
+		width: 100%;
+		align-items: center;	
+		font-family: Verdana;
+		font-size: 14px;
+		font-weight: bold;
+		background-color: white;
+		display:flex;
+		height: 90px;
+		border-bottom: 1px solid black;
+
+		
+	}
+
+
+	 .logo {
+
+	 	margin-left: 50px;
+	 	display: flex;
+	 	height: 60px;
+	 	width: 70px;
+		background-color: pink;
+		display: flex;
+		align-self: center;		
+		background-image: url("./img/img-myt-logo.jpg");
+		background-repeat: no-repeat; 
+	}
+
+	 .spantimes {
+		padding-left: 10px;
+		display: inline-flex;
+		align-items: center;
+		height: 100%;
+		color: MediumAquamarine;
+		justify-content: center;
+		
+	}
+
+
+	.nav {		
+		display: inline-flex;
+		width: 80%;
+		height: 100%;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+		.nav span a{
+			padding:10px;
+			color: black;
+			font-weight: bold;
+	}
+
+
+
+	
+	.content {		
+		width: 1350px;
+		margin: 0 auto 100px auto;
+		display: flex;
+		justify-content: space-around;
+		font-family: Georgia;
+		font-size: 17px;
+		color: black;
+
+	}
+
+	p.para {
+		margin:15px 0px;
+	}
+
+	
+
+	.content h1{
+		font-family: Georgia;
+		font-size: 30px;
+	}
+
+
+
+	.leftbox {
+		display: flex;
+		margin-top: 100px;
+		width: 630px;
+		height: 1500px;
+		flex-direction: column;
+		}
+	
+
+			.leftsection1 {
+
+			}
+
+				.headcontent {	
+					display: flex;
+					flex-direction: column;
+					justify-content: center;								
+					height: 300px;
+					background-image: url("img-story-main.png");
+					background-repeat: none;
+					
+					
+					
+
+				}
+
+					.headcontent span {
+						margin-left:25px;
+						height: 140px;
+						color: white;
+						font-size: 40px;
+						font-family: Georgia;
+						font-weight: bold;
+						
+					}
+
+
+
+					/* LEFT COL <storydiv <story1><story2> > */
+
+
+		.storydiv {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;			
+		}
+
+		.storydiv span{
+			font-family: Georgia;
+			font-weight: bold;
+			font-size: 30px;
+			
+			color: white;
+			text-align: center;
+			
+		}
+
+		.story1{
+			flex-basis: 48%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;	
+		}
+
+		.story2 {
+			flex-basis: 48%;
+		}
+
+
+			.story1img {
+				height: 300px;
+				background:url("img-story-2.png");
+				background-repeat: no-repeat;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				
+			}
+
+			.story2img {
+				height: 300px;
+				background:url("img-story-3.png");
+				background-repeat: no-repeat;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+
+
+
+			/* MIDDLE BOX */
+
+
+			.middlebox{
+				display: flex;
+				flex-direction: column;
+				margin-top: 100px;
+				width: 400px;
+			}
+
+			
+
+			.midstory1 {
+
+			}
+
+			.midstory2 {
+
+			}
+
+			.midstory2img {
+				background:url("img-story-1.png");
+				background-repeat: no-repeat;
+				height: 300px;
+				width: 300px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+				.midstory2 span{
+					font-family: Georgia;
+					font-weight: bold;
+					font-size: 30px;
+					color: white;
+					text-align: center;
+				}
+
+
+
+
+
+				/* RIGHT BOX */
+
+
+				.rightbox {
+					width: 250px;
+					margin-top: 100px;
+					display: flex;
+					flex-direction: column;					
+					
+				}
+
+				img.cookie {
+					height: 240px;
+					width: 240px;
+				}
+
+				.rightcontent{
+					height: 400px;
+					
+				}
+
+				.rightcontent h3 {
+					text-align: center;
+				}
+
+				span.bites{
+					font-family: verdana;
+					border-bottom: 1px solid black;
+					display: block;
+					padding:11px;
+					color:dimgray;
+					background-color: whitesmoke;
+					font-size: 11px;
+				}	
+
+
+				.footercontent {
+					margin: auto;
+  					font-family: Verdana;
+  					font-size: 12px;
+					display: flex;
+					align-items: center;									
+					justify-content: center;
+					height: 200px;
+					width: 100%;
+					background-color: MediumAquamarine;
+				}
+
+
+				.whitetimes {
+				 	font-family: Georgia;
+				 	font-size: 16px;
+				  	font-weight: bold;
+				  	color: white;
+					display: inline-block;
+					
+					
+				}
+
+				span a{
+					display: inline-block;
+					color:black;
+					padding-left:15px;
+				}
+
+				.footerpara {
+					color: blue;
+					justify-content: center;
+					
+				}
+
+				.footbox {
+					width: 350px;
+				}
